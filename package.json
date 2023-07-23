@@ -1,0 +1,36 @@
+{
+  "name": "mytg-gpt-bot",
+  "version": "1.0.0",
+  "description": "My pocket GPT bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T1mur-cod/myTG-GPT-bot.git"
+  },
+  "keywords": [
+    "gpt-bot"
+  ],
+  "author": "Timur",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/T1mur-cod/myTG-GPT-bot/issues"
+  },
+  "homepage": "https://github.com/T1mur-cod/myTG-GPT-bot#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^3.3.0",
+    "telegraf": "^4.12.2"
+  }
+}
